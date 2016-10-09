@@ -69,25 +69,6 @@ public class TetrisView extends JComponent implements Observer{
                 }
             }
         });
-
-        //this.addKeyListener(new MyKeyListener());
-        /*this.addKeyListener(new KeyAdapter() {
-            public void keyTyped(KeyEvent e) {
-                System.out.println(e.getKeyChar() + "!!!");
-                if (e.getKeyCode() == 0) {
-                    CurrentFallingShape.MoveShapeRight(AllPreviousShapeBlocks);
-                    System.out.println("Right key typed");
-                } else if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-                    CurrentFallingShape.MoveShapeLeft(AllPreviousShapeBlocks);
-                    System.out.println("Left key typed");
-                } else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-                    System.out.println("down key typed");
-                } else if (e.getKeyCode() == KeyEvent.VK_UP) {
-                    CurrentFallingShape.rotateLeft(AllPreviousShapeBlocks);
-                    System.out.println("up key typed");
-                }
-            }
-        });*/
     }
 
 
