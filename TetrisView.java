@@ -108,7 +108,7 @@ public class TetrisView extends JComponent implements Observer{
         // Test Successful move
         if(!CurrentFallingShape.AttemptMoveShapeDown(AllPreviousShapeBlocks)){
             morphFallingShapesToOldShapesHolder();
-            //testIfRowsFilled();
+            testIfRowsFilled();
             CurrentFallingShape = new Shape(TetrisShapes.get(r.nextInt(TetrisShapes.size())));
         }
         repaint();
